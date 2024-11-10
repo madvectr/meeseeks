@@ -4,6 +4,4 @@ Welcome to my personal army of agents! These agents are here to help you with va
 
 ![logo](./assets/meeseeks.jpg)
 
-
-
 Feel free to explore and utilize these agents to their fullest potential. Remember, they exist to serve you!

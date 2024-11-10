@@ -9,14 +9,20 @@ chat = ChatOpenAI(model="gpt-4o", temperature=1.0)
 def cover_letter(job_description: str) -> str:
   """Generate a cover letter for a given job description."""
 
-  with open("prompts/application_one_shot.txt", "r") as file:
+  with open("../prompts/application_one_shot.txt", "r") as file:
     prompt_text = file.read()
+
+  with open("../input/resume", "r") as file:
+    resume = file.read()
+
+  with open("../input/examples", "r") as file:
+    examples = file.read()
 
   prompt = ChatPromptTemplate.from_template(prompt_text)
 
   chain = prompt | chat
 
-  return chain.invoke({"job_description": job_description})
+  return chain.invoke({"job_description": job_description, "resume": resume, "examples": examples})
 
 def get_job_description() -> str:
   """Get the job description for a given job id."""

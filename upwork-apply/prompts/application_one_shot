@@ -6,56 +6,13 @@ Use the following order of creating a cover letter for the given job description
 4. Add guidance on how the problem should be solved. Not the secret recipe but enough to tell them I am the right guy to this
 5. Hammer the above message home 
 
+Here is a copy of my resume:
+
+{resume}
 
 Below are some examples of how it should sound like:
-Example 1:
 
-Hi, I understand how a pub-sub architecture with multiple producers and consumers generating high-speed data that needs to be processed and visualized in real-time can get really complex very quickly. I have dealt with many similar systems in the High-frequency trading systems in the Chicago commodities and future industry. Similar performance principles apply to managing data in the IoT world with specialized protocols, real-time processing, and different storage layers for data visualization for live and historical data.
-
-
-
-Often these systems can have performance issues due to bottlenecks in the data layer (datastores) or the way batch / real-time data processing jobs are feeding data into the data layer. On the flip side retrieval is another issue. Depending on how soon this data needs to be displayed, the right design decisions need to be made for a quick and fault-tolerant way of retrieving the data. I have worked on these systems at the petabyte scale with 24x7 availability for most of my career.
-
-
-
-I have worked on systems that receive data at gigabit rates and need to be processed live and history back to years. I have built multiple similar systems and over time improved performance from a few seconds behind real time to microseconds behind live while also reducing the cost of operating, managing, and deploying these systems.
-
-
-
-PS: I am an accomplished Data Engineer in the Chicago region with expertise in creating data pipelines for real-time, low-latency data processing. I am sure I can help you with an improved architecture and suggest ways to make a less complex, cost-effective, and efficiently deployable system.
-
-Ex 2:
-
-Creating a robust data infrastructure with strong data integrity can be crucial to a company's success and growth. I have learned this first hand building multiple real-time, low-latency data pipelines and warehouses over a decade of my career. Architecting a data infrastructure in the cloud not only requires knowledge of the use cases but also a strong understanding of the internal workings of the cloud services being used. It is imperative to use data services based on the speed of ingestion as well as requirements of display of data as it can make a huge difference in a project's cost and final outcome.
-
-I have worked in the High-Frequency trading industry in Chicago for years dealing with similar projects to get aggregate economic news information from various sources to help traders make better decisions and understand the complexities of these systems. Having a flexible data pattern for application consumption and tests for input sources is a must to keep these systems running smoothly!
-
-I have built systems that aggregated information by scrapping various popular economic journals and pricing APIs to produce a real-time feed for our traders to make quick decisions, hence creating performant, fault-tolerant systems is my specialty with money on the line given the intensity of the trading industry.
-
-I would first understand the requirements from a data ingestion, display (visualization), and storage perspective and collaborate to with the team to find a cost-effective and robust solution to the problem.
-
-PS: I am an accomplished Data Engineer in the Chicagoland area with over a decade of experience building real-time data aggregation and data visualization applications in the high-frequency trading industry. I am certain I can help with your project. Please let me know if this offer interests you and I would be happy to set up a call to decide the first steps. Thank you!
-
-Example 3:
-
-As a software entrepreneur, I understand the value of visibility into key metrics of the software platform metrics to focus energies in the direction that will grow the business. I have set up data pipelines for the majority of my career for key business metrics and platform performance. I have also built React Native apps for the past 6 years. One of them being a sports tech app available on the App Store and Play Store known as SwitchedOn. I was also responsible for setting the data pipeline for this project to examine key business metrics and doing data analysis to help grow the business 10x eventually bringing it to break even.
-
-Based on your app's needs and depending on the rate of data import, I will select the tools that help make sure that the data pipelines are operational 24x7. At the same time, I'd add tests to make sure the data that you see on the Amplitude dashboard is accurate.
-
-I am an accomplished Data Engineer in the Chicago High-frequency trading industry and have also developed 2 React Native apps from conception to production. Please let me know if you are interested in working with me and I'd be happy to jump on a call to discuss further.
-
-Example 4:
-Architecting software at the enterprise level compared to direct-to-consumer applications is a massive undertaking with numerous nuances and conformation to required standards. Apart from just the application, special attention must be given to the platform peripherals - Network domain setups, security, access levels, and administrative views for managing the enterprise entity and troubleshooting. To develop these systems a strong collaboration between various departments of the company is critical. There needs to be high transparency between Product, sales, support, and engineering to achieve the desired result efficiently.
-
-I have worked in the fintech industry for almost a decade - from building high-frequency trading engines at scale to managing large teams for executing point-of-sales tip distribution in the highly regulated labor industry. I am confident that with my experience I can strategize, design, and manage making Graphite GTCs application an enterprise-level application
-
-At my last gig, I completed a technical acquisition of an application to compensate hourly wage workers. The application was a monolith that had to be integrated with the parent company's point of sales system. This required a massive overhaul of the architecture of the application and migration of databases and dataflows onto a new platform. To achieve this I worked with product, sales, support, platform engineers, and my application devs to complete the acquisition. The key to the strategy was iterative and continuously deployable code that could be tested to meet all labor laws. The final product fit the parent company's requirements as well provided easy avenues for feature development!
-
-PS: I am a highly accomplished Full-stack developer and engineering leader in the Chicagoland area for designing massively scalable, fault-tolerant enterprise-level software. I am certain, I can help you with your project. I look forward to being a part of your team. If interested please feel free to schedule a call with me.
-
-Example 5:
-Hi, this sounds like a tool that is currently running and critical to your business. It seems to me that you are trying to streamline the process of price visibility using a new user interface instead of manually querying the SQL database. I am an experienced data engineer with years of experience in SQL and data mining. I have also built websites and worked on CMS systems in my past life.
-
+{examples}
 To achieve the required task, I'd need:
 1. Access to your SQL server or a developer version (essentially a copy which I can create too)
 2. Access to the CMS server that you are using
